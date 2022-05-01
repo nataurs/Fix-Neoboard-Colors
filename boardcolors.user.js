@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name         Fix neoboards link colors
 // @match        *://*.neopets.com/neoboards/*
-// @run-at       document-end
 // @grant        GM_addStyle
 // ==/UserScript==
 
