@@ -45,6 +45,6 @@ GM_addStyle(`
 .boardPostMessage a:hover,
 #boardList ul li .boardTopicTitle:hover,
 #boardIndex ul li .premiumBoardButton a:hover {
-	color: #3b54b4!important;
+	color: #3b54b4 !important;
 }
 `);
