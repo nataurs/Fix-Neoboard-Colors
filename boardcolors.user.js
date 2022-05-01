@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Fix neoboards link colors
 // @match        *://*.neopets.com/neoboards/*
-// @run-at       document-end
+// @run-at       document-start
+// @grant        GM_addStyle
 // ==/UserScript==
 
-$('head').append(`
-<style type="text/css">
+GM_addStyle(`
 #boardIndex h3,
 #boardList ul .boardNavBottom .createTopicButton a, #boardList ul .boardNavTop .createTopicButton a,
 #boardCreateTopic h1,
@@ -48,6 +48,4 @@ $('head').append(`
 #boardIndex ul li .premiumBoardButton a:hover {
 	color: #3b54b4!important;
 }
-
-</style>
 `);
